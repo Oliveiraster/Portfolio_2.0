@@ -44,8 +44,8 @@ const Header = ({handleTheme}) => {
             </span> Raphael <span>Oliveira</span></h1>
       </a>
       <ul>
-        <li><Link to={'/'}><span className="material-symbols-outlined">house</span>  Home </Link></li>
-        <li><Link to={'/projects'}><span className="material-symbols-outlined">perm_media</span> Projetos</Link></li>
+        <li><Link to={'/Portfolio_2.0/'}><span className="material-symbols-outlined">house</span>  Home </Link></li>
+        <li><Link to={'/Portfolio_2.0/projects'}><span className="material-symbols-outlined">perm_media</span> Projetos</Link></li>
       </ul>
       <Selected valor={valor} Change={handleChange}  option={appTheme}/>
     </Nav>
