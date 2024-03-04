@@ -48,7 +48,7 @@ function App() {
     <Container>
       <Header handleTheme={resultTheme}va/>
       <Routes>
-        <Route path='/Portfolio_2.0/' element={ <About img={dataUser.avatar_url} description={dataUser.bio}/> }/> 
+        <Route path='/Portfolio_2.0' element={ <About img={dataUser.avatar_url} description={dataUser.bio}/> }/> 
         <Route path='/Portfolio_2.0/projects' element={ <Project arr={repos} user={user}/> } />
       </Routes>
      <Footer />
