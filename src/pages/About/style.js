@@ -18,6 +18,7 @@ margin: 5em;
 }
 
 #texto{
+    margin-left: 20px;
     max-width: 60%;
 }
 
@@ -33,5 +34,26 @@ margin: 5em;
     margin-top: 20px;
 }
 
+@media (max-width:500px) {
+    &{
+        flex-direction: column;
+        height: 400px
+    }
+    #texto{
+        margin-left: auto;
+        max-width: 100%;
+    }
+    & > div#foto > img{
+        width: min(45vw, 300px);
+        height: min(45vw, 300px);
+    }
+    #texto > h1{
+        font-size: min(7vw, 45px);
+    }   
+
+    #texto > p{  
+        font-size: min(4vw, 25px) ;
+    }
+}
 
 `
